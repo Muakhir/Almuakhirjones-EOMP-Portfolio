@@ -8,61 +8,58 @@
     rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
     crossorigin="anonymous">
     <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" 
+    crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
 <body>
-    <nav class="navbar bg-black sticky-top ">
+      <nav class="navbar navbar-expand-lg sticky-top" class="nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="https://i.postimg.cc/76t5qGV0/t-man-with-beard-and-hat809-logowik-com.webp" loading="lazy" alt="">
-          </a>
-          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <a class="navbar-brand w-25" href="./index.html">
+                <img src="https://i.postimg.cc/76t5qGV0/t-man-with-beard-and-hat809-logowik-com.webp" loading="lazy" class="img-fluid rounded-5 w-25" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"  href="#contact">Contact</a>
+                    </li>
+                  </ul>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end ">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#education">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#project">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#testimonials">Testimonials</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contacts</a>
-                  </li>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </nav>
+    </nav>
 
     <main class="container-fluid">
-        <section class="home">
+        <section id="home">
         <div class="container-fluid">
           <div class="row me-4 ms-5">
-            <div class="col mt-5">
-            <h2 class="h2  ">Welcome to my Portfolio</h2>
-            <h2 class="h2 ">My name is Al-Mu'akhir Jones</h2>
+            <div class="col mt-5 typewriter">
+            <h1 class="h1">Welcome to my Portfolio</h1>
+            <h1 class="h1">My name is Al-Mu'akhir Jones</h1>
 
-            <h2 class="h2 ">An aspiring Full-Stack Developer</h2>      
+            <h1 class="h1">An aspiring Full-Stack Developer</h1>      
         </div>
               
          
@@ -119,18 +116,18 @@
          <section>
                     <div class="container-fluid">
                       <h2 id="skills">Skills</h2>
-                        <div class="row">
-                          <div class="col ms-5 me-5" id="col1">
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>Bootsrap</p>
+                        <div class="row sk">
+                          <div class="col ms-5 me-5">
+                            <p id="col1">HTML</p>
+                            <p id="col1">CSS</p>
+                            <p id="col1">Bootsrap</p>
 
 
                           </div>
-                          <div class="col me-5 ms-5" id="col2">
-                            <p>BEGINNER</p>
-                            <p>BEGINNER</p>
-                            <p>BEGINNER</p>
+                          <div class="col me-5 ms-5">
+                            <p id="col2">BEGINNER</p>
+                            <p id="col2">BEGINNER</p>
+                            <p id="col2">BEGINNER</p>
 
                           </div>
                         </div>
@@ -139,17 +136,126 @@
          <section>
                     <div class="container-fluid">
                       <h2 id="projects">Projects</h2>
-
+                      <div class="profile-card">
+                          <img class="image" src="https://i.postimg.cc/Qdc31CQR/Screenshot-2023-11-01-151133.png" alt="">
+                        </div>
+                        <div class="data">
+                          <h2>Keyboard</h2>
+                        </div>
+                        <div class="row pr">
+                          <div class="info">
+                           <h3></h3>
+                        </div>
+                        <div class="buttons">
+                          <a href="https://ecommerce-almuakhirjones-853612.netlify.app" target="_blank" class="btn">Visit</a>
+                        </div>
+                      </div>
                     </div> 
          </section>
          <section>
                     <div class="container-fluid">
                       <h2 id="testimonials">Testimonials</h2>
-
+                      <div class="wrapper">
+                        <div class="box">
+                          <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                          <div class="content">
+                            <div class="info">
+                              <div class="name">Muttaqeen Slamat</div>
+                              <div class="job">Student | Developer</div>
+                            </div>
+                            <div class="image">
+                              <img src="" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="box">
+                          <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                          <div class="content">
+                            <div class="info">
+                              <div class="name">Joel Mukanya</div>
+                              <div class="job">YouTuber | Coding Lecturer</div>
+                            </div>
+                            <div class="image">
+                              <img src="" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="box">
+                          <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                          <div class="content">
+                            <div class="info">
+                              <div class="name">Aakeefah Jones</div>
+                              <div class="job">Developer | Student</div>
+                            </div>
+                            <div class="image">
+                              <img src="" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-         </section>
+                  </section>
+                  <section>
+          <div class="container-fluid">
+            <h2 id="contact">Contact</h2>
+          </div>
+          <div class="row align-content-center">
+            <div class="col ms-5 me-5">
+              <div class="box1">
+                <div class="text">
+                  <h2 id="address">Address</h2>
+                  <p>11 Bristol Close</p>
+                  <p>Rocklands,Mitchells Plain</p>
+                  <p>7798</p>
+              </div>
+              </div>
+              <div class="box1">
+                <div class="text">
+                  <h2>Phone</h2>
+                  <p>0792543014</p>
+                </div>
+                </div>
+                <div class="box1">
+                  <div class="text">
+                    <h2>Email</h2>
+                    <p>almuakhirjones@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+                  <div class="col me-5">
+                  <div class="contactform">
+                    <form action="https://formspree.io/f/xknlenad" method="post">
+                        <h2 id="ch2">Send Message</h2>
+                        <div class="inputbox">
+                              <input type="text" name="Name" required>
+                              <span>Name</span>
+                        </div>
+                        <div class="inputbox">
+                          <input type="text" name="Surname" required>
+                          <span>Surname</span>
+                    </div>
+                    <div class="inputbox">
+                      <input type="text" name="Email" required>
+                      <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                      <textarea required></textarea>
+                      <span id="type">Type your Message...</span>
+                    </div>
+                    <div class="inputbox">
+                      <input type="submit" name="Send" value="send">
+                    </div>
+                    </form>
+                  </div>
+                </div>
+          </div>   
+                
+                
     </main>
-
+    <footer id="feet">
+      <p>
+          <span id="copytitle">Copyright</span> &copy;<span id="copyyear">2023</span>
+      </p>
 
 
 
