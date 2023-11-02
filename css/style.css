@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
+
+
 .logo{
+  background-color: black;
     width: 75px;
     height: 50px;
     border-radius: 25px;
@@ -179,7 +182,7 @@ textarea{
  
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgba(99, 145, 183, 0); }
+    20% { border-color: rgba(99, 145, 183, 0); }
   }
   #feet{
     background: rgba(0, 0, 0, 0.256);
@@ -304,7 +307,7 @@ textarea{
     text-decoration: none;
     margin: 0 20px;
     padding: 8px 25px;
-    border-radius: 25px;
+    border-radius: 30px;
     font-size: 18px;
     white-space: nowrap;
     background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
@@ -312,6 +315,11 @@ textarea{
   .buttons .btn:hover{
     box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
   }
+ #button{
+    margin-top: 10px;
+    
+ }
+
   .net{
     margin-left: 25%;
   }
@@ -325,6 +333,25 @@ textarea{
     margin-top: 100px;
     text-align: center;
   }
+.inputbox :hover{
+  box-shadow: inset 0 5px 20px rgba(123, 25, 79, 0.943);
+  box-shadow: inset 0 0 15px rgba(123, 25, 79, 0.943);
+}
+#ecom{
+    margin-left: 100px;
+}
+#key{
+  margin-left: 120px;
+}
+#cal{
+  margin-left: 120px;
+}
+#mobi{
+  margin-left: 120px;
+}
+
+    
+  
 
 
 
