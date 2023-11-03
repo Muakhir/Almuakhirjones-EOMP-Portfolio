@@ -3,8 +3,9 @@
 *::before{
     margin: 0;
     padding: 0;
+    
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .logo{
   background-color: black;
@@ -13,6 +14,7 @@
     border-radius: 25px;
 }
 body{
+    font-family: 'Playfair Display', serif;
     background-image: radial-gradient(aqua,rgb(132, 45, 113));  
 }
 nav{
@@ -22,7 +24,7 @@ nav{
     width: 150px;
 }
 .h2{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 #about{
     margin-top: 150px;
@@ -165,6 +167,10 @@ textarea{
  .hover :hover{
     background-color: rgb(125, 51, 96) ;
 }
+.projects{
+  display: flex;
+  justify-content: space-around;
+}
 .h1{
     padding: 50px;
     font-weight: 100;
@@ -266,14 +272,14 @@ textarea{
   }
   .image{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
   }
   .image .profile-pic{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 50%;
     box-shadow: 0 5px 20px rgba(0,0,0,0.4);
   }
@@ -285,8 +291,7 @@ textarea{
     margin-right: 60px;
   }
   .data h2{
-    font-size: 33px;
-    font-weight: 600;
+    font-size: 30px;
   }
   span{
     font-size: 18px;
@@ -301,14 +306,13 @@ textarea{
     text-align: center;
     padding: 0 0;
   }
-  .net{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+
+  #net{
+    text-align: center;
   }
   .buttons{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 30px;
   }
