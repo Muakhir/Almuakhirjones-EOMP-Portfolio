@@ -41,19 +41,24 @@ nav{
 }
 #p2{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 25px;
     color: black;
 
 }
+.colaa{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 .img1{
     width: 300px;
     border-radius: 25%;
-    margin-top: 70px;
-    float: right;
+    
 }
 .imgl{
     width: 400px;
+    height: auto;
     border-radius: 25%;
     float: right;
 }
@@ -109,7 +114,6 @@ nav{
 
 .row{
     display: flex;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 .inputbox{
